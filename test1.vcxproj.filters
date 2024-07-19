@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cmft-master\src\cmft\allocator.cpp" />
+    <ClCompile Include="cmft-master\src\cmft\clcontext.cpp" />
+    <ClCompile Include="cmft-master\src\cmft\common\print.cpp" />
+    <ClCompile Include="cmft-master\src\cmft\common\stb_image.cpp" />
+    <ClCompile Include="cmft-master\src\cmft\cubemapfilter.cpp" />
+    <ClCompile Include="cmft-master\src\cmft\image.cpp" />
+    <ClCompile Include="cmft-master\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cmft-master\dependency\CL\cl.h" />
+    <ClInclude Include="cmft-master\dependency\CL\cl_d3d10.h" />
+    <ClInclude Include="cmft-master\dependency\CL\cl_d3d11.h" />
+    <ClInclude Include="cmft-master\dependency\CL\cl_dx9_media_sharing.h" />
+    <ClInclude Include="cmft-master\dependency\CL\cl_egl.h" />
+    <ClInclude Include="cmft-master\dependency\CL\cl_ext.h" />
+    <ClInclude Include="cmft-master\dependency\CL\cl_gl.h" />
+    <ClInclude Include="cmft-master\dependency\CL\cl_gl_ext.h" />
+    <ClInclude Include="cmft-master\dependency\CL\cl_platform.h" />
+    <ClInclude Include="cmft-master\dependency\CL\opencl.h" />
+    <ClInclude Include="cmft-master\dependency\stb\stb_image.h" />
+    <ClInclude Include="cmft-master\include\cmft\allocator.h" />
+    <ClInclude Include="cmft-master\include\cmft\clcontext.h" />
+    <ClInclude Include="cmft-master\include\cmft\cubemapfilter.h" />
+    <ClInclude Include="cmft-master\include\cmft\image.h" />
+    <ClInclude Include="cmft-master\include\cmft\print.h" />
+    <ClInclude Include="cmft-master\src\cmft\clcontext_internal.h" />
+    <ClInclude Include="cmft-master\src\cmft\common\cl.h" />
+    <ClInclude Include="cmft-master\src\cmft\common\commandline.h" />
+    <ClInclude Include="cmft-master\src\cmft\common\config.h" />
+    <ClInclude Include="cmft-master\src\cmft\common\fpumath.h" />
+    <ClInclude Include="cmft-master\src\cmft\common\halffloat.h" />
+    <ClInclude Include="cmft-master\src\cmft\common\handlealloc.h" />
+    <ClInclude Include="cmft-master\src\cmft\common\os.h" />
+    <ClInclude Include="cmft-master\src\cmft\common\platform.h" />
+    <ClInclude Include="cmft-master\src\cmft\common\stb_image.h" />
+    <ClInclude Include="cmft-master\src\cmft\common\timer.h" />
+    <ClInclude Include="cmft-master\src\cmft\common\utils.h" />
+    <ClInclude Include="cmft-master\src\cmft\cubemaputils.h" />
+    <ClInclude Include="cmft-master\src\cmft\radiance.h" />
+    <ClInclude Include="cmft-master\src\cmft_cli\cmft_cli.h" />
+    <ClInclude Include="cmft-master\src\cmft_tests\tests.h" />
+    <ClInclude Include="cmft-master\src\cmft_tests\tokenize.h" />
+  </ItemGroup>
+</Project>
